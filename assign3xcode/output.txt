@@ -1,0 +1,57 @@
+Example 1:
+Adding 1 to the set.
+Adding 2 to the set.
+Adding 3 to the set.
+Adding 4 to the set.
+Adding 5 to the set.
+Adding 6 to the set.
+Adding 7 to the set.
+Adding 8 to the set.
+Adding 9 to the set.
+Adding 10 to the set.
+Adding 11 to the set.
+The set is already full. Unable to add 11 to the set.
+
+Please enter an integer value: 6
+
+Your input is 6.
+The number of elements less than your input is 5.
+The number of even elements in the set is 5.
+
+The number 2 has been removed from the number set.
+The number 6 has been removed from the number set.
+The number 13 is not in the number set. Unable to remove.
+
+Your input is 6.
+The revised number of elements less than your input is 4.
+The revised number of even elements in the set is 3.
+Program ended with exit code: 0
+
+Example 2:
+Adding 1 to the set.
+Adding 2 to the set.
+Adding 3 to the set.
+Adding 4 to the set.
+Adding 5 to the set.
+Adding 6 to the set.
+Adding 7 to the set.
+Adding 8 to the set.
+Adding 9 to the set.
+Adding 10 to the set.
+Adding 11 to the set.
+The set is already full. Unable to add 11 to the set.
+
+Please enter an integer value: 9
+
+Your input is 9.
+The number of elements less than your input is 8.
+The number of odd elements in the set is 5.
+
+The number 2 has been removed from the number set.
+The number 6 has been removed from the number set.
+The number 13 is not in the number set. Unable to remove.
+
+Your input is 9.
+The revised number of elements less than your input is 6.
+The revised number of odd elements in the set is 5.
+Program ended with exit code: 0

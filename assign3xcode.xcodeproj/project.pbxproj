@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C028241F8B748000811D15 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C028231F8B748000811D15 /* main.cpp */; };
+		52C028241F8B748000811D15 /* NumberSetMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C028231F8B748000811D15 /* NumberSetMain.cpp */; };
+		52C0282B1F8B752A00811D15 /* Numberset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C0282A1F8B752A00811D15 /* Numberset.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		52C028201F8B748000811D15 /* assign3xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = assign3xcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C028231F8B748000811D15 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52C028231F8B748000811D15 /* NumberSetMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberSetMain.cpp; sourceTree = "<group>"; };
+		52C0282A1F8B752A00811D15 /* Numberset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Numberset.cpp; sourceTree = "<group>"; };
+		52C0282C1F8B752F00811D15 /* Numberset_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Numberset_header.h; sourceTree = "<group>"; };
+		52E15BAC1F8C0AEE0092A415 /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		52C028221F8B748000811D15 /* assign3xcode */ = {
 			isa = PBXGroup;
 			children = (
-				52C028231F8B748000811D15 /* main.cpp */,
+				52C028231F8B748000811D15 /* NumberSetMain.cpp */,
+				52E15BAC1F8C0AEE0092A415 /* output.txt */,
+				52C0282C1F8B752F00811D15 /* Numberset_header.h */,
+				52C0282A1F8B752A00811D15 /* Numberset.cpp */,
 			);
 			path = assign3xcode;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C028241F8B748000811D15 /* main.cpp in Sources */,
+				52C028241F8B748000811D15 /* NumberSetMain.cpp in Sources */,
+				52C0282B1F8B752A00811D15 /* Numberset.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
